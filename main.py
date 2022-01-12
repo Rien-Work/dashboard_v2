@@ -17,8 +17,7 @@ with st.expander("Algemeen"):
      st.write("hallo Algemeen")
      concept_luchtbehandeling = w.algemeen()
 with st.expander("Luchtbehandeling"):
-     w.luchtbehandeling("Gekozen concept: " + concept_luchtbehandeling)
-
+     st.write("hallo luchtbehandeling")
 with st.expander("Verwarming"):
      st.write("hallo Verwarming")
 with st.expander("Koeling"):
