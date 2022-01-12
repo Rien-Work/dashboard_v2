@@ -15,7 +15,7 @@ with st.expander("Algemeen"):
 st.subheader("Werktuigbouwkunde")
 with st.expander("Algemeen"):
      st.write("hallo Algemeen")
-     concept_luchtbehandeling = w.algemeen()
+     w.algemeen()
 with st.expander("Luchtbehandeling"):
      st.write("hallo luchtbehandeling")
 with st.expander("Verwarming"):
