@@ -13,6 +13,8 @@ def algemeen():
         concept_luchtbehandeling = st.selectbox(
             'Decentrale luchtbehandeling concept:',
             ('Kies....', "Type D vent. met WTW", "Type C vent. met raamroosters"))
+    if luchtbehandeling is "Kies....":
+        concept_luchtbehandeling = "maak keuzen"
     return concept_luchtbehandeling
 
 def luchtbehandeling(concept_luchtbehandeling):
